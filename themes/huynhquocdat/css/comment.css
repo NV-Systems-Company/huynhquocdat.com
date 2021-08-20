@@ -1,0 +1,77 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 31/05/2010, 00:36
+ */
+
+#idcomment {
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
+
+#idcomment .comment-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #000;
+}
+
+#idcomment .sortcomm .active {
+    background: #f5f5f5;
+}
+
+.comment-list .comment-info .cm_item {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.comment-list .comment-info .cm_item strong {
+    color: #222;
+    display: block;
+    margin-bottom: -5px;
+}
+
+.comment-list .comment-tool {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+}
+
+.comment-list .comment-tool li {
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.comment-list .comment-tool li:first-child {
+    margin: 0;
+}
+
+.comment-list {
+    margin: 0;
+    padding-left: 0;
+}
+
+.comment-list>li {
+    margin-bottom: 20px;
+}
+
+.comment-list>li .comment-content {
+    padding-left: 70px;
+}
+
+.comment-list>li .child-comments {
+    margin-top: 10px;
+}
+
+.comment-list li a.pull-left>img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 1px solid #f6f6f6;
+}
